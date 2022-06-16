@@ -30,7 +30,7 @@ header .container {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	padding: 10px;
+	padding: 20px;
 	border-bottom: solid 2px black;
 }
 
@@ -48,7 +48,7 @@ img {
 .container-texto {
 	display: flex;
 	flex-direction: column;
-	padding: 10px;
+	padding: 20px;
 }
 
 h2 {
@@ -71,3 +71,49 @@ h2 {
 }
 
 /*Informações*/
+.container-informacoes{
+	display: flex;
+	flex-direction: column;
+}
+
+.container-sobre-mim {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 15px;
+	border-bottom: solid 2px black;
+}
+
+.titulo2 {
+	font-size: 40px;
+	margin: 10px;
+}
+
+.sub-titulo2 {
+	font-size: 20px;
+	width: 60%;
+}
+
+/*Hobbies*/
+.container-hobbies-skills{
+	display: flex;
+	flex-direction: column;
+}
+
+.container-hobbies, .container-skills, .container-formacao {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 150px;
+}
+
+.lista-hobbies, .lista-skills, .lista-formacao {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 10px;
+}
+
+.box {
+	margin: 10px;
+}
