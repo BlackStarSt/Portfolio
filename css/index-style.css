@@ -42,7 +42,7 @@ header .container {
 	border-bottom: solid 2px black;
 }
 
-img {
+.inicio-imagem {
 	width: 20%;
 	border-radius: 50%;
 }
@@ -102,7 +102,7 @@ h2 {
 	margin-bottom: 20px;
 }
 
-/*Hobbies*/
+/*Hobbies, skills e formação*/
 .container-hobbies-skills-formacao{
 	display: flex;
 	flex-direction: column;
@@ -113,6 +113,11 @@ h2 {
 	align-items: center;
 	flex-direction: column;
 	height: 300px;
+	margin: 10px;
+}
+
+.container-formacao {
+	height: 450px;
 }
 
 .lista-hobbies, .lista-skills, .lista-formacao {
@@ -124,21 +129,78 @@ h2 {
 	justify-content: space-around;
 }
 
-.lista-formacao .box {
-	width: 8%;
+.lista-formacao {
+	flex-wrap: wrap;
 }
 
 .box {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	padding: 16px;
 	gap: 8px;
-	width: 150px;
-	height: 150px;
+	width: 120px;
+	height: 120px;
 	background: #89bd78;
+	margin: 0 5% 2% 0;
+	border: solid 2px black;
 }
+
+.container-experiencia {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 3%;
+}
+
+.experiencia-crip, .experiencia-forca {
+	display: flex;
+	justify-content: space-around;
+	margin: 3%;
+}
+
+.experiencia-forca {
+	flex-direction: row-reverse;
+}
+
+.experiencia-texto {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 30%;
+	font-size: 20px;
+}
+
+.exp-titulo {
+	font-style: oblique;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 40px;
+}
+
+.container-botoes {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.experiencia-botao {
+	width: 150px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+	background-color: #89bd78;
+	cursor: pointer;
+}
+
+.experiencia-imagem {
+	width: 60%;
+	border: solid 2px black;
+}
+
+/*Rodape*/
+
 
 /*Mobile*/
 @media (max-width: 720px) {
