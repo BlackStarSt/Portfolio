@@ -1,0 +1,71 @@
+@media screen and (min-width: 0) {
+	.container-inicio {
+		flex-direction: column;
+	}
+
+	.nome-menu {
+		width: 30%;
+		margin-left: 10px;
+	}
+
+	.container-menu {
+		width: 70%;
+		justify-content: flex-end;
+	}
+
+	.menu:nth-child(-n+4) {
+		display: none;
+	}
+
+	.menu:nth-child(5) {
+		margin-right: 45px;
+	}
+
+	.container-hobbies, .container-skills {
+		width: 100%;
+	}
+
+	.container-formacao {
+		height: auto;
+	}
+
+	.exp-titulo {
+		font-size: 25px;
+		margin-bottom: 5px;
+	}
+
+	.container-botoes {
+		margin-top: 5px;
+	}
+
+	.experiencia-botao {
+		width: 80px;
+	}
+
+	.experiencia-crip, .experiencia-forca {
+		margin: 5%;
+	}
+}
+
+@media screen and (min-width: 720px) {
+		.container-inicio {
+		flex-direction: row;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.nome-menu {
+		width: 20%;
+		text-align: center;
+	}
+
+	.menu:nth-child(-n+4) {
+		display: flex;
+		justify-content: space-around;
+		width: 20%
+	}
+
+	.experiencia-botao {
+    	width: 150px;
+    }
+}
