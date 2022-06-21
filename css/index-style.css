@@ -16,12 +16,6 @@ header .container {
 	width: 75%;
 }
 
-.nome-menu {
-	display: flex;
-	justify-content: space-around;
-	width: 20%
-}
-
 .menu, .link {
 	color: black;
 	text-decoration: none;
@@ -38,13 +32,15 @@ header .container {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	padding: 75px 0 30px 0;
+	padding: 75px 0 30px 10px;
 	border-bottom: solid 2px black;
 }
 
 .inicio-imagem {
 	width: 20%;
 	border-radius: 50%;
+	border: 2px solid black;
+	margin-left: 10px;
 }
 
 .container-orientacao {
@@ -87,7 +83,7 @@ h2 {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	margin: 15px;
+	margin: 15px 0 15px 0;
 	border-bottom: solid 2px black;
 }
 
@@ -106,6 +102,7 @@ h2 {
 .container-hobbies-skills-formacao{
 	display: flex;
 	flex-direction: column;
+	border-bottom: 2px solid black;
 }
 
 .container-hobbies, .container-skills, .container-formacao {
@@ -149,7 +146,9 @@ h2 {
 .container-experiencia {
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 3%;
+	justify-content: center;
+	margin: 3% 0 3% 0;
+	border-bottom: 2px solid black;
 }
 
 .experiencia-crip, .experiencia-forca {
@@ -186,7 +185,6 @@ h2 {
 }
 
 .experiencia-botao {
-	width: 150px;
 	height: 40px;
 	border: none;
 	border-radius: 10px;
@@ -200,33 +198,3 @@ h2 {
 }
 
 /*Rodape*/
-
-
-/*Mobile*/
-@media (max-width: 720px) {
-	header .container {
-		justify-content: space-around;
-		align-items: center;
-	}
-
-	.nome-menu {
-		font-size: 12px;
-		width: 15%;
-		text-align: center;
-	}
-
-	.container-menu {
-		width: 85%;
-
-	}
-
-	.menu, .link {
-		font-size: 9px;
-	}
-
-	/*Inicio*/
-	.container-inicio {
-		padding: 0;
-		flex-direction: column;
-	}
-}
