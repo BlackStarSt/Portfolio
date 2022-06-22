@@ -6,6 +6,7 @@
 	.nome-menu {
 		width: 30%;
 		margin-left: 10px;
+		text-align: center;
 	}
 
 	.container-menu {
@@ -22,11 +23,53 @@
 	}
 
 	.container-hobbies, .container-skills {
+		height: 200px;
 		width: 100%;
 	}
 
-	.container-formacao {
-		height: auto;
+	.lista-hobbies, .lista-skills {
+		width: 40%;
+	}
+
+	.lista-formacao {
+		width: 95%;
+	}
+
+	.lista-formacao .box {
+		height: 80px;
+		margin: 0 1% 2% 0;
+	}
+
+	.box {
+		height: 80px;
+	}
+
+	.exp-titulo {
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+
+	.container-botoes {
+		margin-top: 5px;
+	}
+
+	.experiencia-crip, .experiencia-forca {
+		margin: 5% 0;
+	}
+
+	.experiencia-botao {
+		width: 50px;
+	}
+
+	.form-botao {
+		width: 310px;
+	}
+
+}
+
+@media screen and (min-width: 480px) {
+	.lista-hobbies, .lista-skills {
+		width: 80%;
 	}
 
 	.exp-titulo {
@@ -38,18 +81,26 @@
 		margin-top: 5px;
 	}
 
+	.experiencia-crip, .experiencia-forca {
+		margin: 5% 0;
+	}
+
 	.experiencia-botao {
 		width: 80px;
 	}
 
-	.experiencia-crip, .experiencia-forca {
-		margin: 5%;
+	.form-botao {
+		width: 310px;
 	}
 }
 
 @media screen and (min-width: 720px) {
-		.container-inicio {
+	.container-inicio {
 		flex-direction: row;
+	}
+
+	.lista-formacao .box {
+		margin: 0 5% 2% 0;
 	}
 }
 
@@ -66,6 +117,6 @@
 	}
 
 	.experiencia-botao {
-    	width: 150px;
+    	width: 145px;
     }
 }

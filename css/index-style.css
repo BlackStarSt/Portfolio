@@ -2,7 +2,7 @@ header .container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 15px;
+	padding: 15px 0;
 	margin-bottom: 10px;
 	position: fixed;
 	width: 100%;
@@ -110,11 +110,11 @@ h2 {
 	align-items: center;
 	flex-direction: column;
 	height: 300px;
-	margin: 10px;
+	margin: 10px 0;
 }
 
 .container-formacao {
-	height: 450px;
+	height: auto;
 }
 
 .lista-hobbies, .lista-skills, .lista-formacao {
@@ -184,7 +184,7 @@ h2 {
 	width: 100%;
 }
 
-.experiencia-botao {
+.experiencia-botao, .form-botao {
 	height: 40px;
 	border: none;
 	border-radius: 10px;
@@ -197,4 +197,50 @@ h2 {
 	border: solid 2px black;
 }
 
-/*Rodape*/
+/*Contato*/
+.container-contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.contato-texto {
+	font-size: 30px;
+	width: 100%;
+	background-color: #89bd78;
+	padding: 15px 0;
+	margin-bottom: 2%;
+}
+
+.container-form {
+	display: flex;
+	flex-direction: column;
+	height: 320px;
+}
+
+.form-contato {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mensagem-contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+textarea {
+	resize: none;
+}
+
+/*Rodapé*/
+.container-rodape {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 60px;
+	margin-top: 60px;
+	border-top: 2px solid black;
+}
