@@ -110,7 +110,6 @@
 					</div>
 				</div>
 			</section>
-
 			<div id="contato" class="container-contato">
 				<div class="contato-texto">
 					<h2>Entre em contato</h2>
@@ -118,15 +117,15 @@
 				<div class="container-form">
 					<form id="form-contato" class="form-contato">
 						<label>Nome</label><br>
-						<input id="nome" type="text"><br>
+						<input id="nome" type="text" placeholder="Ex: João Alves da Silva" required><br>
 						<label>E-mail</label><br>
-						<input id="email" type="email"><br>
+						<input id="email" type="email" placeholder="Ex: nome@site.com" required><br>
 						<label>Assunto</label><br>
-						<input id="assunto" type="text"><br>
+						<input id="assunto" type="text" placeholder="Ex: Trabalho" required><br>
 						<label>Mensagem</label><br>
 						<div class="mensagem-contato">
-							<textarea id="mensagem" type="text" cols="40" rows="5"></textarea>
-							<button id="form-botao" class="form-botao" type="submit">Enviar</button>
+							<textarea id="mensagem" type="text" cols="40" rows="5" placeholder="Deixe sua mensagem aqui..." required></textarea>
+							<button id="form-botao" class="form-botao" type="submit" onclick="enviarForm();">Enviar</button>
 						</div>
 					</form>
 				</div>
