@@ -99,6 +99,10 @@
 		flex-direction: row;
 	}
 
+	.container-hobbies, .container-skills {
+		height: 300px;
+	}
+
 	.lista-formacao .box {
 		margin: 0 5% 2% 0;
 	}

@@ -89,7 +89,8 @@ h2 {
 
 .titulo2 {
 	font-size: 40px;
-	margin: 10px;
+	margin: 40px;
+	text-decoration: underline #89bd78;
 }
 
 .sub-titulo2 {
@@ -109,7 +110,6 @@ h2 {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	height: 300px;
 	margin: 10px 0;
 }
 
@@ -213,16 +213,12 @@ h2 {
 	margin-bottom: 2%;
 }
 
-.container-form {
-	display: flex;
-	flex-direction: column;
-	height: 320px;
-}
-
 .form-contato {
-	height: 100%;
+	height: 300px;
+	padding-top: 30px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .mensagem-contato {
@@ -243,4 +239,5 @@ textarea {
 	height: 60px;
 	margin-top: 60px;
 	border-top: 2px solid black;
+	background: #89bd78;
 }
