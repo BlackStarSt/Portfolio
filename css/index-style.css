@@ -38,7 +38,7 @@ header .container {
 
 .inicio-imagem {
 	width: 20%;
-	border-radius: 50%;
+	border-radius: 100%;
 	border: 2px solid black;
 	margin-left: 10px;
 }
