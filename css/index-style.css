@@ -151,14 +151,14 @@ h2 {
 	border-bottom: 2px solid black;
 }
 
-.experiencia-crip, .experiencia-forca {
+.container-experiencia :nth-child(3) {
+	flex-direction: row-reverse;
+}
+
+.experiencia-div {
 	display: flex;
 	justify-content: space-around;
 	margin: 3%;
-}
-
-.experiencia-forca {
-	flex-direction: row-reverse;
 }
 
 .experiencia-texto {
