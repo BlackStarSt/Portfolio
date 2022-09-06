@@ -151,7 +151,7 @@ h2 {
 	border-bottom: 2px solid black;
 }
 
-.container-experiencia :nth-child(3) {
+.container-experiencia :nth-child(2n) {
 	flex-direction: row-reverse;
 }
 
