@@ -79,6 +79,7 @@ h2 {
 .container-informacoes{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 .container-sobre-mim {
@@ -87,6 +88,7 @@ h2 {
 	flex-direction: column;
 	border-bottom: solid 2px black;
 	padding: 30px;
+	width: 1802px;
 }
 
 .titulo2 {
@@ -130,11 +132,14 @@ h2 {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
 	margin: 10px 0;
 }
 
 .container-formacao {
-	height: auto;
+	height: 800px;
+	width: 1280px;
 }
 
 .lista-skills, .lista-formacao {
@@ -143,7 +148,7 @@ h2 {
 	align-items: center;
 	margin: 10px;
 	width: 80%;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .lista-formacao {
