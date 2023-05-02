@@ -1,3 +1,9 @@
+.corpo {
+	background-color: #D3D3D3;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+}
+
 header .container {
 	display: flex;
 	align-items: center;
