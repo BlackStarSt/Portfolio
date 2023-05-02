@@ -39,7 +39,7 @@ header .container {
 .container-inicio {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	padding: 75px 0 30px 10px;
 	border-bottom: solid 2px black;
 }
@@ -54,12 +54,15 @@ header .container {
 .container-orientacao {
 	display: flex;
 	flex-direction: column;
+	width: 500px;
+	align-items: stretch;
 }
 
 .container-texto {
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
+	align-items: center;
 }
 
 h2 {
@@ -67,7 +70,8 @@ h2 {
 }
 
 .titulo {
-	font-size: 35px;
+	font-size: 60px;
+	padding-bottom: 10px;
 }
 
 .sub-titulo {
